@@ -1,0 +1,151 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+#nav {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#nav a {
+  margin-right: 20px;
+}
+
+#nav a.topimage {
+  width: 20px;
+  height: 20px;
+  background: red;
+  border-radius: 50%;
+}
+
+#middle {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo {
+  text-align: center;
+}
+
+#searchbarcontainer {
+  margin-top: 20px;
+  text-align: center;
+  display: flex;
+  border-radius: 16px;
+  border: 1px solid #c4c4c4;
+}
+
+#search,
+#voice {
+  top: 0;
+  height: 100%;
+  align-items: center;
+  border: none;
+  padding: 10px 30px;
+}
+
+#search {
+  justify-content: flex-start;
+}
+
+#voice {
+  justify-content: flex-end;
+}
+
+#searchbar {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  outline: 0;
+  width: 500px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: none;
+}
+
+#searchbar:hover {
+  box-shadow: 0 0 10px 2px rgb(233, 233, 233);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+#searchbutton {
+  display: flex;
+  justify-content: center;
+}
+
+.s-btn {
+  border: 1px solid transparent;
+  padding: 9px 15px;
+  color: #666;
+  font-size: 14px;
+  border-radius: 4px;
+  margin-right: 10px;
+  margin-top: 28px;
+  outline: none;
+  cursor: pointer;
+}
+.s-btn:hover {
+  border: 1px solid #aaa;
+}
+
+.lang {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 13px;
+  color: #111;
+}
+.lang a {
+  margin-left: 5px;
+  color: #1a0dab;
+}
+.lang a:hover {
+  text-decoration: underline;
+}
+footer {
+  background: #f2f2f2;
+}
+footer h4 {
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 15px;
+  line-height: 39.5px;
+  font-weight: 400;
+  padding-left: 29px;
+  border: 1px solid #eee;
+}
+footer a {
+  color: #5f6368;
+  display: inline-block;
+  padding: 12px 11.3px;
+  font-size: 14px;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+.links {
+  border-top: 1px solid #ddd;
+  display: flex;
+}
+.link-1 {
+  padding-left: 18.7px;
+  flex: 1;
+}
+.link-2 {
+  padding-right: 18.7px;
+}
